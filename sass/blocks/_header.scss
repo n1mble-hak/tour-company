@@ -51,3 +51,23 @@
     margin-left: 18px;
   }
 }
+.navbar {
+  background-color: #0a223d;
+
+  &-menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    &__items {
+      list-style: none;
+    }
+    &__link {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+.small-button {
+  display: none;
+}
