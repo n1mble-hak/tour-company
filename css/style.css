@@ -389,7 +389,7 @@ img {
     width: 850px;
   }
 }
-@media (max-width: 841px) {
+@media (max-width: 876px) {
   .container {
     width: 750px;
   }
@@ -404,7 +404,7 @@ img {
     width: 132px;
   }
 }
-@media (max-width: 769px) {
+@media (max-width: 780px) {
   .container {
     width: 673px;
   }
