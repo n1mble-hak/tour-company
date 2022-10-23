@@ -391,12 +391,15 @@ img {
   margin: 0px 4px;
 }
 
+.hotel {
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
 .hotel-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 40px;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
 }
 .hotel-info__offer {
   margin-left: 14px;
@@ -404,7 +407,6 @@ img {
 }
 .hotel-info__description {
   margin-top: 4px;
-  margin-bottom: 20px;
 }
 .hotel-info__name {
   margin-top: 4px;
@@ -422,6 +424,52 @@ img {
 
 .stars {
   flex-basis: 100%;
+}
+
+.slider {
+  width: 728px;
+}
+
+.swiper {
+  width: 100%;
+  height: 450px;
+  position: relative;
+  border-radius: 8px;
+}
+.swiper::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%);
+  z-index: 10;
+}
+
+.slider-button {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 99;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background-position: center;
+  background-size: 10px;
+  background-repeat: no-repeat;
+}
+.slider-button-prev {
+  left: 10px;
+  background-image: url("../img/arrow-left.svg");
+}
+.slider-button-next {
+  right: 10px;
+  background-image: url("../img/arrow-rigth.svg");
 }
 
 .offer {
