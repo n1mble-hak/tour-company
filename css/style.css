@@ -421,6 +421,96 @@ img {
   flex-wrap: wrap;
   align-items: center;
 }
+.hotel-grid {
+  display: flex;
+  justify-content: space-between;
+}
+.hotel-rigth {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hotel-map {
+  background-color: #333333;
+  height: 213px;
+  width: 347px;
+  border-radius: 10px;
+}
+
+.booking {
+  background: #0a223d;
+  border-radius: 8px;
+  color: #fff;
+  padding: 28px;
+}
+.booking-up {
+  display: flex;
+  justify-content: space-between;
+}
+.booking__price {
+  display: flex;
+  flex-direction: column;
+}
+.booking__start-price {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+}
+.booking__price-tag {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+}
+.booking__per-room {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+.booking__pearson, .booking__room {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+}
+.booking__image {
+  margin-right: 9px;
+}
+.booking__pearson-room {
+  margin-top: 4px;
+}
+.booking-tel {
+  display: flex;
+  justify-content: space-between;
+}
+.booking-tel__number {
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.booking-tel__text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+.booking-tel__num {
+  margin-left: 8px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+.booking__button {
+  background-color: #ec1f46;
+  border: none;
+  color: #fff;
+  padding: 13px 84px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  margin-top: 30px;
+  border-radius: 4px;
+}
 
 .stars {
   flex-basis: 100%;
