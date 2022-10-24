@@ -1,16 +1,30 @@
-@media (max-width: 1160px) {
+@media (max-width: 1200px) {
   .container {
     width: 950px;
+  }
+  .slider {
+    width: 575px;
+    &__image {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
   }
 }
 @media (max-width: 976px) {
   .container {
     width: 850px;
   }
+  .slider {
+    width: 475px;
+  }
 }
 @media (max-width: 876px) {
   .container {
     width: 750px;
+  }
+  .slider {
+    width: 375px;
   }
   .header {
     &-top {
@@ -29,7 +43,14 @@
 }
 @media (max-width: 780px) {
   .container {
-    width: 673px;
+    width: 701px;
+  }
+  .booking {
+    width: 340px;
+    margin-right: 21px;
+  }
+  .hotel-grid__slider {
+    margin-bottom: 20px;
   }
   .navbar {
     font-size: 12px;
@@ -44,6 +65,16 @@
       padding-bottom: 30px;
     }
   }
+  .slider {
+    width: 100%;
+  }
+  .hotel-grid {
+    flex-direction: column;
+  }
+  .hotel-rigth {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 @media (max-width: 693px) {
   .logo {
@@ -51,6 +82,9 @@
   }
   .container {
     width: 80%;
+  }
+  .slider {
+    height: 479px;
   }
   .user,
   .search,
@@ -96,5 +130,22 @@
   }
   .offer {
     order: -1;
+  }
+  .swiper,
+  .slider {
+    height: 15%;
+    width: 100%;
+  }
+  .hotel-rigth {
+    flex-direction: column;
+  }
+  .booking {
+    width: 100%;
+  }
+  .hotel-map {
+    width: 100%;
+  }
+  .hotel__booking {
+    margin-bottom: 20px;
   }
 }

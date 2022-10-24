@@ -50,6 +50,8 @@
   border-radius: 8px;
   color: #fff;
   padding: 28px;
+  width: 355px;
+  height: 210px;
   &-up {
     display: flex;
     justify-content: space-between;
@@ -113,12 +115,15 @@
     background-color: $acent-color;
     border: none;
     color: #fff;
-    padding: 13px 84px;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
     margin-top: 30px;
     border-radius: 4px;
+    width: 100%;
   }
 }
 .stars {

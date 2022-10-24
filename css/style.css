@@ -300,6 +300,7 @@ body {
 
 img {
   max-width: 100%;
+  max-height: 100%;
 }
 
 .header {
@@ -443,6 +444,8 @@ img {
   border-radius: 8px;
   color: #fff;
   padding: 28px;
+  width: 355px;
+  height: 210px;
 }
 .booking-up {
   display: flex;
@@ -505,12 +508,15 @@ img {
   background-color: #ec1f46;
   border: none;
   color: #fff;
-  padding: 13px 84px;
+  text-align: center;
+  padding-top: 13px;
+  padding-bottom: 13px;
   font-weight: 600;
   font-size: 14px;
   line-height: 19px;
   margin-top: 30px;
   border-radius: 4px;
+  width: 100%;
 }
 
 .stars {
@@ -594,19 +600,34 @@ img {
   font-size: 12px;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 1200px) {
   .container {
     width: 950px;
+  }
+  .slider {
+    width: 575px;
+  }
+  .slider__image {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 @media (max-width: 976px) {
   .container {
     width: 850px;
   }
+  .slider {
+    width: 475px;
+  }
 }
 @media (max-width: 876px) {
   .container {
     width: 750px;
+  }
+  .slider {
+    width: 375px;
   }
   .header-top__search {
     margin: auto;
@@ -621,7 +642,14 @@ img {
 }
 @media (max-width: 780px) {
   .container {
-    width: 673px;
+    width: 701px;
+  }
+  .booking {
+    width: 340px;
+    margin-right: 21px;
+  }
+  .hotel-grid__slider {
+    margin-bottom: 20px;
   }
   .navbar {
     font-size: 12px;
@@ -634,6 +662,16 @@ img {
     padding-top: 30px;
     padding-bottom: 30px;
   }
+  .slider {
+    width: 100%;
+  }
+  .hotel-grid {
+    flex-direction: column;
+  }
+  .hotel-rigth {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 @media (max-width: 693px) {
   .logo {
@@ -641,6 +679,9 @@ img {
   }
   .container {
     width: 80%;
+  }
+  .slider {
+    height: 479px;
   }
   .user,
 .search,
@@ -681,5 +722,22 @@ img {
   }
   .offer {
     order: -1;
+  }
+  .swiper,
+.slider {
+    height: 15%;
+    width: 100%;
+  }
+  .hotel-rigth {
+    flex-direction: column;
+  }
+  .booking {
+    width: 100%;
+  }
+  .hotel-map {
+    width: 100%;
+  }
+  .hotel__booking {
+    margin-bottom: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
