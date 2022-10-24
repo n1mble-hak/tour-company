@@ -435,6 +435,7 @@ img {
   height: 213px;
   width: 347px;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .booking {
